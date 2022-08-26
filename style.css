@@ -1,0 +1,242 @@
+/*en general*/
+*{
+        padding: 0%;
+        margin:  0%;
+}
+/*Création du header*/
+/*créaton du style de la navBar*/
+
+.logo{
+        margin-left: -50vh;
+        height: 50px;
+}
+nav{
+        margin: 100px auto;
+        width: 50%;
+        height: 50px;  
+}
+.nav{
+    
+        justify-content: flex-end;
+        margin-right: -200px;
+        margin-top: -55px;
+        height: 50px;
+        gap: 5px;
+        display: flex;
+        align-items: center;
+    }
+.container{
+        
+        margin-top: -100px;
+        background-image: url(./image/w4.jpg);
+        text-decoration: none;
+    }
+.nav-link{
+   
+        height: 50px;
+        width: 90px;
+        display: flex;
+        text-decoration: none;
+        font-size: 24px;
+        align-items: center;
+        color: black;
+}
+nav a:hover 
+{
+        background: rgb(49, 143, 173);
+        height: 50px;
+        width: 90px;
+}
+
+/*Creation du titre */
+.header{
+   
+       text-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+.home-title{
+        margin-top: 10px;
+        text-align: center;
+}
+.title{
+        margin-top: 60px;
+        font-size: 60px ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+        font-size: 20px;
+}
+
+/*Creation de du background image mon image header*/
+.background{
+        margin-top: 40px;
+        background-image: url('./image/w4.jpg');
+        background-size:cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        opacity: 1; 
+        height: 60vh;
+}
+/* CREATION DE LA SECTION 1*/
+.first-section{
+        background-color: aquamarine;
+        height: 120vh;
+}
+.home-container{
+        margin-top: 40px;
+        margin-left: 200px;
+        border-radius: 20px;
+        background-color: white;
+        height: 90vh;
+        width: 120vh;
+        display: flex;
+ }
+ .image2{
+        height: 90vh;
+        width: 62vh;
+    }
+ .text2{
+        text-align: center;
+        font-size: 20px;
+        margin: 20px;
+ }
+
+
+/*creation du style de la secton 2*/
+.second-title{
+        text-align: center;
+        font-size: 30px;
+        height: 35px;
+        background-color: white;
+        width: 350px;
+    }
+.section2{
+        background-image: linear-gradient(135deg, rgb(104,203,226,1), rgb(197, 124, 59));
+        height: 80vh;
+}
+.maClass{
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-evenly ;
+    }
+ .img1{
+        background-color: rgba(128, 128, 128, 0.637);
+        height: 200px;
+        width: 250px;
+        border-radius: 25px;
+    
+}
+.p{
+        text-align: center;
+        font-size: 25px;
+        text-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+    }
+/*creation du style de la section 3*/
+.section3{
+        height: 80vh;
+        background-color: rgb(197, 124, 59);
+    }
+.container{
+        justify-content: space-evenly;
+        display: flex;
+}
+.img2{
+        background-color: rgba(128, 128, 128, 0.507);
+        height: 310px;
+        width: 380px;
+        border-radius: 20px;
+        margin-top: 150px;
+}
+
+
+/*Creation de mon swiper*/
+.swiper {
+        width: 1200px;
+        height: 450px;
+        margin-top: 50px;
+        border-radius: 20px;
+    
+  }
+
+  .swiper-slide{
+        display: flex;
+        margin: 40px;
+        gap: 75px;
+  }
+  .img{
+        height: 150px;
+        width: 240px;
+        border-radius: 20px;
+  }
+  
+  .activity{
+        background-color: #fff;
+        height: 320px;
+        width: 240px;
+        border-radius: 20px;
+  }
+  .precedent{
+      margin-top: -100px;
+  }
+
+/*creation ma section de photo video*/
+.four-title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section4{
+        height: 100vh;
+}
+.swipe{
+        margin-top: 50px;
+        width: 600px;
+        height: 300px;
+    
+}
+.imgW{
+     
+        height: 250px;
+        width: 250px;
+
+    }
+    .swiper-slider{
+        
+        margin: 100px;
+        
+  } 
+    
+/*Création de la section pour les photo et video*/
+.section4{
+        height: 110vh;
+        background-image: linear-gradient(135deg, rgb(104,203,226,1), rgb(197, 124, 59));
+}
+.imgD{
+        margin-top: 20px;
+        height: 100px;
+        width: 50px;
+}
+.four-title{
+        margin-top: -2px;
+        text-align: center;
+        font-size: 25px;
+}
+#carouselExampleControls
+{
+        width: 50%;
+        margin: auto;
+}
+ .carousel-item img{
+        justify-content: center;
+        width: 65%;
+        height: 90vh;
+        border-radius: 15px;
+ }
+
+/*creation du style du footer*/
+footer{
+        height: 10vh;
+        background-color: rgba(0, 0, 0, );
+    }
+   

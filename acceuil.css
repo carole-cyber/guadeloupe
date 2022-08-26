@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+/*créaton du style de la navBar*/
+
+header{
+    background-color: rgb(49, 143, 173);
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+     height: 50px;
+}
+
+nav{
+    width: 50%;
+    height: 50px; 
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -700px;
+    margin-top: -55px;
+    gap: 5px;
+}
+
+.nav-link{
+    margin-top: 10px;
+    gap: 10px;
+    height: 50px;
+    width: 90px;
+    text-decoration: none;
+    font-size: 24px;
+    align-items: center;
+    color: black;
+}
+nav a:hover 
+{
+    background: grey;
+    height: 30px;
+    width: 90px;
+}
+.nav-container{
+    gap: 10px;
+}
+/*Creation du titre */
+.header{
+    height: 200px;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+.home-title{
+     margin-top: 10px;
+     text-align: center;
+}
+.title{
+     margin-top: 60px;
+     font-size: 60px ;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+     font-size: 20px;
+}
+
+/*Creation de du background image mon image header*/
+.background{
+    margin-top: 40px;
+    background-image: url('./image/picbyclint1.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 1; 
+    height: 70vh;
+}
+/* CREATION DE LA SECTION 1*/
+.first-section{
+    background-color: rgba(127, 255, 212, 0.445);
+    height: 120vh;
+}
+.home-container{
+    margin-top: 40px;
+    margin-left: 270px;
+    border-radius: 20px;
+    background-color: white;
+    height: 90vh;
+    width: 120vh;
+    display: flex;
+}
+.second-img{
+    background-image: url(./image/H9.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 250vh;
+}
+.image2{
+    height: 90vh;
+    width: 62vh;
+}
+.presentation{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+}
+.btn{
+    background-color:rgba(122, 175, 215) ;
+    margin-top: 100px;
+    width: 200px;
+    height: 30px;
+}
+
+/*creation du style de la secton 2*/
+.second-title{
+    text-align: center;
+    font-size: 30px;
+    height: 35px;
+    background-color: white;
+    width: 350px;
+}
+.section2{
+    background-image: linear-gradient(135deg, rgb(104,203,226,1), rgb(197, 124, 59));
+    height: 80vh;
+}
+.maClass{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly ;
+}
+.img1{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+
+}
+.p{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+/*creation du style de la section 3 ET Creation de mon swiper*/
+.section3{
+    height: 100vh;
+    background-color: rgb(197, 124, 59);
+}
+
+.img2{
+    background-color: rgba(128, 128, 128, 0.507);
+    height: 310px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
+.swiper {
+    width: 1200px;
+    height: 450px;
+    margin-top: 70px;
+    border-radius: 20px;
+
+}
+
+.swiper-slide{
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+}
+.img{
+    display: flex;
+    height: 170px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+.activity{
+    background-color: #fff;
+    height: 390px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+/*creation du footer*/
+footer{
+    background-color:rgba(91, 98, 100, 0.651);
+}
+.logo2{
+    height: 50px;
+}
+.container-footer{
+    display: grid;
+    gap: 15px;
+}
+@media screen {
+    
+}
+

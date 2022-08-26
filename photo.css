@@ -1,0 +1,193 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+/*créaton du style de la navBar*/
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+     height: 50px;
+}
+nav{
+    margin: 100px auto;
+    width: 50%;
+    height: 50px;  
+}
+.nav{
+
+    justify-content: flex-end;
+    margin-right: -200px;
+    margin-top: -55px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    
+    margin-top: -100px;
+    text-decoration: none;
+}
+.nav-link{
+
+    height: 50px;
+    width: 90px;
+    display: flex;
+    text-decoration: none;
+    font-size: 24px;
+    align-items: center;
+    color: black;
+}
+nav a:hover 
+{
+    background: rgb(49, 143, 173);
+    height: 50px;
+    width: 90px;
+}
+
+/*Creation du titre */
+.header{
+   
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+.home-title{
+     margin-top: 10px;
+     text-align: center;
+}
+.title{
+     margin-top: 60px;
+     font-size: 60px ;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+     font-size: 20px;
+}
+
+/*Creation de du background image mon image header*/
+.background{
+    margin-top: 40px;
+    background-image: url('./image/w4.jpg');
+    background-size: cover;
+    background-position: top;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 1; 
+    height: 70vh;
+}
+
+/* CREATION DE LA SECTION 1*/
+.first-section{
+    background-color: rgba(127, 255, 212, 0.445);
+    height: 120vh;
+}
+.home-container{
+    margin-top: 40px;
+    margin-left: 250px;
+    border-radius: 20px;
+    background-color: white;
+    height: 90vh;
+    width: 120vh;
+    display: flex;
+}
+.second-img{
+    background-image: url(./image/H9.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 350vh;
+}
+.image2{
+    height: 90vh;
+    width: 62vh;
+}
+.presentation{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+}
+
+/*creation du style de la secton 2*/
+.second-title{
+    text-align: center;
+    font-size: 30px;
+    height: 35px;
+    background-color: white;
+    width: 350px;
+}
+.section2{
+    background-image: linear-gradient(135deg, rgb(104,203,226,1), rgb(197, 124, 59));
+    height: 80vh;
+}
+.maClass{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly ;
+}
+.img1{
+    background-color: rgba(128, 128, 128, 0.637);
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+
+}
+.p{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+
+/*creation du style de la section 3 ET Creation de mon swiper*/
+.section3{
+    height: 100vh;
+    background-color: rgb(197, 124, 59);
+}
+
+.img2{
+    background-color: rgba(128, 128, 128, 0.507);
+    height: 310px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
+.swiper {
+    width: 1200px;
+    height: 450px;
+    margin-top: 70px;
+    border-radius: 20px;
+
+}
+
+.swiper-slide{
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+}
+.img{
+    display: flex;
+    height: 170px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+.activity{
+    background-color: #fff;
+    height: 390px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+/*creation du footer*/
+footer{
+    background-color:rgba(29, 29, 29, 0.349);
+}
+.logo2{
+    height: 50px;
+}
+.container-footer{
+    display: grid;
+    gap: 15px;
+}

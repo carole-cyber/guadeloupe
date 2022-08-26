@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Visité Guadeloupe, Activités, Randonnées,Evenements...</title>
+        <link rel="stylesheet" href="acceuil.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    </head>
+
+    <body>
+
+         <!--creation du header avce le tite, le sous titre, le logo --> 
+    
+        <header>
+            <div class="container">
+                
+                <nav>
+                    <div>
+                            <img class="logo" src="./image/logo.jpg" alt="">
+                    </div>
+
+                    <div class="nav">
+                            
+                        <a class="nav-link" href="./acceuil.html">Accueil</a>
+                        <a class="nav-link" href="riviere.html">Rivières</a>                                              <a class="nav-link" href="############">Plages</a>
+                        <a class="nav-link" href="evenement.html">Loisirs</a>
+                        <a class="nav-link" href="./photo.html">Photos</a>                       
+                        <a class="nav-link" href="##############">A propos</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+<!--Creation du titre-->
+         <section class="header">
+
+            <div class="home-title">
+                <h1 class="title">Les îles de Guadeloupe</h1>
+                <p class="text">Bienvenue dans l'archipel de Guadeloupe !</p>
+            </div>
+        </section>
+
+  <!--Creation de mon image en header-->
+        <section class="background">
+
+        </section>
+
+      <!--Création de la première section--> 
+   
+
+        <section class="first-section">
+            <h2 class="second-title">La Guadeloupe</h2>
+            <div class="home-container">
+                <div class="second-img">
+                </div>
+                <div class="presentation">
+                    <h2>Une île paradisiaque</h2>
+                    <br><br><br>
+                    <p>La Guadeloupe forme une archipel de 1780 km² comprenant huit îles dont la Grande-Terre (à l'est) et la Basse-Terre (à l'ouest), lesquelles sont les deux principales îles séparées par un étroit canal la rivière Salée, mais reliées par un pont
+                    </i><br><br>
+                    Territoire français d'outre-mer, la Guadeloupe est particulièrement connue pour ses beaux paysages croisés entre mers et montagnes, ses rivières et sa particulière ressemblance à un papillon. Pourtant, d'un point de vue culturel, l'île aux belles eaux est bien plus que celà. 
+                    <br>En effet si musées et théâtres ne sont pas particulièerement épris des habitants de ces térritoires ultramararins, l'histoire de l'île , les diverses pratiques culturelles et traditionnelles de celle-ci sont une véritable richesse que ses résidents ainsi que le monde entier se doivent connaître.
+                    </p>
+                </div>
+            </div>
+      
+       </section>
+  
+  
+    <!--Créaion de l'évènement de slide automatique en javascript
+
+<script>
+   var numero = 0;
+   
+   setInterval(function(){
+       console.log(numero);
+       numero +=1;
+       $('.image2').attr('src', 'image/' +numero + '.jpg');
+       if(numero==9){
+           numero = 0;
+       }
+   },1500)
+   </script>-->
+
+
+
+<!--Création de la section des activités a faire avec les images en illustration-->
+
+        <section class="section2">
+            <div class="bouton">
+                <h2 class="second-title">Quoi faire ?</h2> 
+            </div>
+            <div class="maClass">
+                <div class="second-container">
+                     <img class="img1" src="./image/2.jpg" alt="nautilus" onmouseover="src='./image/H6.jpeg'" onmouseout="src='./image/2.jpg'">
+                    <P class="p">Une sortie a la plage ?</P>
+                 </div>
+
+                <div class="second-container">
+                    <img class="img1" src="./image/5.jpg" alt="plein" onmouseover="src='./image/7.jpg'" onmouseout="src='./image/5.jpg'">
+                    <p class="p">Une sortie a la rivière</p>
+                </div>
+
+            
+                <div class="second-container">
+                    <img class="img1" src="./image/6.jpg" alt="jets-ski" onmouseover="src='./image/H5.jpeg'" onmouseout="src='./image/6.jpg'">
+                    <p class="p">Randonnées</p>
+                </div>
+
+
+                <div class="second-container">
+                    <img class="img1" src="./image/H10.jpeg" alt="allédumanoir" onmouseover="src='./image/H11.jpeg'" onmouseout="src='./image/H10.jpeg'">
+                    <p class="p">Autres</p>
+                </div>
+            </div>
+<!--Création d'évenement javascipt pour les images des activités a faire-->
+
+  
+
+        </section>
+
+        
+        
+
+
+<footer>
+    
+    <div class="home-footer">
+    <img class="logo2" src="./image/logo.jpg" alt="petit logo">
+    <h4>Welcome in Guadeloupe</h4></div>
+    <div class="container-footer">
+    <a class="foot" href="#">A propos</a>
+    <a class="foot" href="#">Loisirs</a>
+    <a class="foot" href="#">Photos</a>
+</div>
+
+</footer>
+    </body>
+</html>        

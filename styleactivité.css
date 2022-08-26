@@ -1,0 +1,26 @@
+.four-title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section4{
+        height: 100vh;
+}
+.swipe{
+        margin-top: 50px;
+        width: 600px;
+        height: 300px;
+    
+}
+.imgW{
+     
+        height: 250px;
+        width: 250px;
+
+    }
+    .swiper-slider{
+        
+        margin: 100px;
+        
+  } 
